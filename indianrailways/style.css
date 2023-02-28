@@ -1,0 +1,111 @@
+.main-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #146696;
+    width: 100%;
+    height: 10vh;
+}
+.other-gov-websites {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #005282;
+    border-radius: 0 0 1vw 1vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+* {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.nav-button {
+    width: 100%;
+    
+    height: 100%;
+    background-color:#146696;
+    color:white;
+    font-size: 2vh;
+    border: none;
+    cursor: pointer;
+}
+.alt-nav-button {
+    width: 100%;
+    height: 100%;
+    margin: 0 1vw;
+    background-color:#005282;
+    color:white;
+    font-size: 1.75vh;
+    border: none;
+    cursor: pointer;
+}
+.nav-button:hover, .nav-button:focus{
+    background-color: #0f4c6d;
+}
+.alt-nav-button:hover, .alt-nav-button:focus{
+    background-color: #00426a;
+}
+.nav-img {
+    padding: 0 1vw;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.card-imgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    padding: 1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+.card-img {
+    height: 40vh;
+    border-radius: 10px;
+}
+.pm {
+    background-color: #146696;
+    color: white;
+    
+}
+.card-link {
+    position: relative;
+}
+.icon {
+    position: absolute;
+    top: -3vh;
+    right: -3vh;
+    rotate: 45deg;
+    font-size: 5vh;
+}
+
+a {
+    text-decoration: none;
+}
+.latest-container {
+    padding: 1vh;
+    border: 1px solid gray;
+    width: max-content;
+    text-align: center;
+}
+.latest-container-container {
+    margin: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hidden {
+    display: none;
+}
